@@ -1,21 +1,27 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.group1 {
-  background-image: url(images/fbackground.png);
-}
+
 .nav {
   display: flex;
-  background-color: #1c1c1c;
+  /* background-color: #1c1c1c; */
   justify-content: space-between;
   padding-left: 120px;
   padding-right: 180px;
 }
 .frame1 {
   background-color: rgb(26, 25, 25);
-  background-image: url(images/fbackground.png),url(images/bnw.png);
+  background-image: url(images/fbackground.png), url(images/bnw.png);
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+}
+.group2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .tbtn {
   height: 200px;
@@ -59,9 +65,9 @@
 .glow {
   background-color: #1c1c1c;
   background-repeat: no-repeat;
-  background-position: center, bottom;
-  background-image: url("images/lineandglow.svg"),url(images/Ellipse6.png);
-  /* height: 100vh; */
+  background-position: left top, center, bottom;
+  background-image:url(images/images2.png), url("images/lineandglow.svg"), url(images/Ellipse6.png);
+  height: 100vh;
   /* width: 100vh; */
 }
 .vector2 {
@@ -69,13 +75,13 @@
   padding-left: 1460px;
   padding-top: 180px;
 }
-.txt2{
+.txt2 {
   padding-left: 200px;
   padding-top: 50px;
   display: flex;
   gap: 90px;
 }
-.txt3{
+.txt3 {
   display: flex;
   flex-direction: column;
 }
@@ -91,13 +97,55 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.bore{
+.bore {
   font-family: Inter;
-font-size: 15px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-color: #CFCFCF;
-width: 500px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cfcfcf;
+  width: 500px;
+}
+.focuas {
+  background-color: #1c1c1c;
+  background-image: url(images/fut.png);
+  opacity: 1.5;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.our {
+  font-family: Inter;
+  font-size: 76px;
+  font-weight: 724;
+  line-height: 97px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  font-variation-settings: "slnt" 0;
+}
+.engage {
+  color: white;
+  width: 620px;
+  font-family: Inter;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: Inter;
+  font-size: 51px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
